@@ -90,3 +90,65 @@ input {
 input::placeholder {
   color: var(--text-light);
 }
+
+.mustard-theme {
+  --bg-color: #b6e2b5;
+  /* Mustard Greens provided by user */
+  --shadow-light: #9abd99;
+  --shadow-dark: #648a63;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
+
+.mustard-theme input,
+.mustard-theme .neumorphic-inset,
+.mustard-theme button,
+.mustard-theme .neumorphic-btn {
+  /* Reset to default root variables for these elements */
+  --bg-color: #e0e5ec;
+  --shadow-light: #ffffff;
+  --shadow-dark: #a3b1c6;
+  background-color: var(--bg-color);
+}
+
+/*before logging in */
+.goldenrod-theme {
+  --bg-color: #EEDD82;
+  /* Light Goldenrod (Xona) */
+  /*--shadow-light: #ffff9e;
+  --shadow-dark: #cbbd6e;*/
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
+
+.goldenrod-theme input,
+.goldenrod-theme .neumorphic-inset,
+.goldenrod-theme button,
+.goldenrod-theme .neumorphic-btn {
+  /* Reset to default root variables for these elements */
+  --bg-color: #e0e5ec;
+  --shadow-light: #ffffff;
+  --shadow-dark: #a3b1c6;
+  background-color: var(--bg-color);
+}
+
+/*after logging in */
+.golden-sand-theme {
+  --bg-color: #F0DB7D;
+  /* Golden Sand */
+  --shadow-light: #ffffad;
+  --shadow-dark: #c2b165;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
+
+.golden-sand-theme input,
+.golden-sand-theme .neumorphic-inset,
+.golden-sand-theme button,
+.golden-sand-theme .neumorphic-btn {
+  /* Reset to default root variables for these elements */
+  --bg-color: #e0e5ec;
+  --shadow-light: #ffffff;
+  --shadow-dark: #a3b1c6;
+  background-color: var(--bg-color);
+}

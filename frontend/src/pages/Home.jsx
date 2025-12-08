@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6">
-      <div className="neumorphic p-10 flex flex-col items-center max-w-lg w-full">
+      <div className={`neumorphic ${user ? 'golden-sand-theme' : 'goldenrod-theme'} p-10 flex flex-col items-center max-w-lg w-full`}>
         <h1 className="text-4xl font-bold mb-8 text-gray-700 text-center">
           Welcome to MindShelf
         </h1>

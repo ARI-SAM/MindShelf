@@ -33,7 +33,7 @@ export default function Login() {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="neumorphic p-8 w-full max-w-md">
+      <div className="neumorphic mustard-theme p-8 w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6 text-gray-700">Login</h2>
         {error && (
           <div className="bg-red-100 text-red-700 p-2 rounded mb-4 text-center">
